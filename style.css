@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 105vh;
+}
+
+.container {
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+
+/* Utility class */
+.flex {
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* Image part */
+.image-part {
+    margin-top: 35px;
+}
+
+/* login-part */
+
+.login-part {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-part {
+    border: 1px solid #d6d0d0;
+    width: 340px;
+}
+
+.sub-part h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    color: #262626;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.sub-part input {
+    width: 80%;
+    height: 35px;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #d6d0d0;
+    background-color: #fafafa;
+}
+
+.sub-part input::placeholder {
+    font-size: 12px;
+}
+
+/* Button */
+.btn {
+    justify-content: center;
+}
+
+button {
+    width: 80%;
+    height: 33px;
+    margin-top: 15px;
+    background-color: #0095f6;
+    opacity: 70%;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    /* cursor: pointer; */
+}
+
+hr {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* facebook login part */
+.facebook-login {
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-decoration: none;
+    gap: 8px;
+    font-size: 14px;
+    color: #385185;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* forgot part */
+.forgot {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00376b;
+    cursor: pointer;
+}
+
+/* signup part */
+.signup-part {
+    border: 1px solid #d6d0d0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.signup-part a {
+    text-decoration: none;
+    color: #0095f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* p-part */
+.p-part {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* logo */
+.logo {
+    justify-content: center;
+    margin-top: 5px;
+    gap: 25px;
+    cursor: pointer;
+}
+
+#img1 {
+    width: 135px;
+}
+
+#img2 {
+    width: 115px;
+}
+
+/* subfooter section */
+.subfooter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    gap: 15px;
+
+}
+
+.subfooter a {
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+}
+
+.subfootera:hover {
+    text-decoration: underline;
+}
+
+/* Footer section */
+
+.footer-section {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(165, 163, 163);
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+
+}
